@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://v1.jeffreyszhou.com/public/main-1500h.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-N4YK8YX1W6"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+    
+            gtag('config', 'G-N4YK8YX1W6');
+    </script>
+    <title>Jeffrey Zhou - Projects</title>
+    <meta property="og:title" content="Jeffrey Zhou - Projects">
+    <meta property="og:image" content="width=device-width, initial-scale=1.0">
+    <meta property="twitter:card" content="summary_large_image">
+    
+    <!-- Reset and default style sheets -->
+    <style>
+        html { line-height: 1.15; }
+        body { margin: 0; }
+        * { box-sizing: border-box; border-width: 0; border-style: solid; }
+        p, li, ul, pre, div, h1, h2, h3, h4, h5, h6, figure, blockquote, figcaption { margin: 0; padding: 0; }
+        button { background-color: transparent; }
+        button, input, optgroup, select, textarea { font-family: inherit; font-size: 100%; line-height: 1.15; margin: 0; }
+        button, select { text-transform: none; }
+        button, [type="button"], [type="reset"], [type="submit"] { -webkit-appearance: button; }
+        button::-moz-focus-inner, [type="button"]::-moz-focus-inner, [type="reset"]::-moz-focus-inner, [type="submit"]::-moz-focus-inner { border-style: none; padding: 0; }
+        button:-moz-focus, [type="button"]:-moz-focus, [type="reset"]:-moz-focus, [type="submit"]:-moz-focus { outline: 1px dotted ButtonText; }
+        a { color: inherit; text-decoration: inherit; }
+        input { padding: 2px 4px; }
+        img { display: block; }
+        html { scroll-behavior: smooth; }
+    </style>
+
+    <!-- Default styles -->
+    <style>
+        html { font-family: Arial; font-size: 16px; }
+        body { font-weight: 400; font-style: normal; text-decoration: none; text-transform: none; letter-spacing: normal; line-height: 1.55; color: var(--dl-color-gray-black); background-color: var(--dl-color-gray-white); }
+    
+
+    /* Default styles for the header */
+    .projects-header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000; 
+        transition: top 0.3s; 
+    }
+
+    .projects-header.hidden {
+        top: -100px;
+    }
+    
+    </style>
+
+    <!-- External stylesheets and fonts -->
+    <link rel="stylesheet" href="https://unpkg.com/animate.css@4.1.1/animate.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&amp;display=swap" data-tag="font">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" data-tag="font">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&amp;display=swap" data-tag="font">
+    <link rel="stylesheet" href="https://v1.jeffreyszhou.com/external/style.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="./scripts/gradient.js" defer></script>
+    <link href="./styles/projects.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="dynamic-background"></div>
+    <div class="projects-container">
+        <header data-role="Header" class="projects-header">
+            <a href="./" class="projects-navlink">
+                <img alt="logo" src="public/main-1500h.jpg" class="projects-image">
+            </a>
+            <div class="projects-nav">
+                <nav class="navigation-links-nav navigation-links-root-class-name36">
+                    <a href="./" class="navigation-links-navlink"><span>About</span></a>
+                    <a href="projects.html" class="navigation-links-navlink1"><span>Projects</span></a>
+                    <a href="https://v1.jeffreyszhou.com/public/JZhou_Resume.pdf" target="_blank" rel="noreferrer noopener" class="navigation-links-link"><span>CV <i class="fa fa-external-link" aria-hidden="true" style="font-size: 0.75em; vertical-align: middle; margin-top: -2.5px;"></i></span></a>
+                </nav>
+            </div>
+            <div data-role="BurgerMenu" class="projects-burger-menu">
+                <svg viewBox="0 0 1024 1024" class="projects-icon">
+                    <path d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
+                </svg>
+            </div>
+            <div data-role="MobileMenu" class="projects-mobile-menu">
+                <div class="projects-nav1">
+                    <div class="projects-container1">
+                        <a href="./" class="projects-navlink1">
+                            <img alt="image" src="public/main-1500h.jpg" class="projects-image1">
+                        </a>
+                        <div data-role="CloseMobileMenu" class="projects-close-mobile-menu">
+                            <svg viewBox="0 0 1024 1024" class="projects-icon2">
+                                <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <nav class="navigation-links-nav navigation-links-root-class-name37">
+                        <a href="./" class="navigation-links-navlink"><span>About</span></a>
+                        <a href="projects.html" class="navigation-links-navlink1"><span>Projects</span></a>
+                        <a href="https://v1.jeffreyszhou.com/public/JZhou_Resume.pdf" target="_blank" rel="noreferrer noopener" class="navigation-links-link"><span>CV <i class="fa fa-external-link" aria-hidden="true" style="font-size: 0.75em; vertical-align: middle; margin-top: -2.5px;"></i></span></a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <div class="projects-container2">
+
+        <!-- All project cards are below -->
+        
+              <div class="project-cards-gallery-card project-cards-root-class-name" style="text-align: left;">
+                <img alt="image" src="public/website-300h.gif" class="project-cards-image">
+                <h2 class="project-cards-text"><span>Vehicle History Report Webstore</span></h2>
+                <span class="project-cards-text1">
+                  <span>Online store that compiles/sells vehicle history reports. Features VIN validation with NHTSA vPIC API, payment integration with Paypal REST API. UI designed in Figma; website built with React, Tailwind, and PHP.</span>
+                </span>
+                <div class="project-buttons">
+                  <a href="https://carcheck.automotive.si/" target="_blank" rel="noreferrer noopener" class="projects-link2">
+                    <button class="project-button">
+                    Project <i class="fa fa-external-link" aria-hidden="true" style="font-size: 0.75em; vertical-align: middle; margin-top: -2.5px;"></i>
+                    </button>
+                  </a>
+                </div>
+              </div>
+
+              <div class="project-cards-gallery-card project-cards-root-class-name3" style="text-align: left;">
+                <img alt="image" src="public/chat.gif" class="project-cards-image">
+                <h2 class="project-cards-text"><span>Distributed Computing Chatbot</span></h2>
+                <span class="project-cards-text1">
+                  <span>
+                    Implement Full-stack solution for a custom teaching chatbot using Retrieval-Augmented Generation via Gemini API for improved context-awareness. Developed hierarchical corpus based on course content/structure.
+                  </span>
+                </span>
+                <div class="project-buttons">
+                  <a href="https://jsz.pythonanywhere.com/" target="_blank" rel="noreferrer noopener" class="projects-link2">
+                    <button class="project-button">
+                    Project <i class="fa fa-external-link" aria-hidden="true" style="font-size: 0.75em; vertical-align: middle; margin-top: -2.5px;"></i>
+                    </button>
+                  </a>
+                  <a href="https://github.com/jsz-05/jsz-distributed-llm-tuning" target="_blank" rel="noreferrer noopener" class="projects-link2">
+                    <button class="project-button">
+                      Code <i class="fa fa-external-link" aria-hidden="true" style="font-size: 0.75em; vertical-align: middle; margin-top: -2.5px;"></i>
+                    </button>
+                  </a>
+                </div>
+              </div>
+
+
+              <div class="project-cards-gallery-card project-cards-root-class-name3" style="text-align: left;">
+                <img alt="image" src="public/hacktech.gif" class="project-cards-image">
+                <h2 class="project-cards-text"><span>Custom Hackathon Website</span></h2>
+                <span class="project-cards-text1">
+                  <span>
+                    Built brand new website for Caltech's annual Hackathon, implementing a responsive and interactive architecture using HTML, CSS, and JavaScript to improve load times, and ensure cross-platform compatibility.
+
+                  </span>
+                </span>
+                <div class="project-buttons">
+                  <a href="https://hack.caltech.edu/" target="_blank" rel="noreferrer noopener" class="projects-link2">
+                    <button class="project-button">
+                    Project <i class="fa fa-external-link" aria-hidden="true" style="font-size: 0.75em; vertical-align: middle; margin-top: -2.5px;"></i>
+                    </button>
+                  </a>
+                </div>
+              </div>
+
+
+
+              <div class="project-cards-gallery-card project-cards-root-class-name3" style="text-align: left;">
+                <img alt="image" src="public/solar.gif" class="project-cards-image">
+                <h2 class="project-cards-text"><span>Solar Energetic Particles Analysis</span></h2>
+                <span class="project-cards-text1">
+                  <span>
+                    Utilized supervised machine learning techniques to analyze solar energetic particle (SEP) data collected from NASA's ACE mission. Apply LSTM and GRU-based recurrent neural networks for further time-series analysis.
+
+                  </span>
+                </span>
+                <div class="project-buttons">
+                  <a href="https://v1.jeffreyszhou.com/solar-energetic-particles" target="_blank" rel="noreferrer noopener" class="projects-link2">
+                    <button class="project-button">
+                    Project <i class="fa fa-external-link" aria-hidden="true" style="font-size: 0.75em; vertical-align: middle; margin-top: -2.5px;"></i>
+                    </button>
+                  </a>
+                </div>
+              </div>
+
+              <div class="project-cards-gallery-card project-cards-root-class-name3" style="text-align: left;">
+                <img alt="image" src="public/game.gif" class="project-cards-image">
+                <h2 class="project-cards-text"><span>Lofi Roguelike Game written in C</span></h2>
+                <span class="project-cards-text1">
+                  <span>ROTMG-inspired roguelike game featuring intelligent enemies, rooms, complex attacks, and a scratch made UI. Coded entirely in C (including custom libraries) and compiled with Emscripten.</span>
+                </span>
+                <div class="project-buttons">
+                  <a href="https://v1.jeffreyszhou.com/rotmd" target="_blank" rel="noreferrer noopener" class="projects-link2">
+                    <button class="project-button">
+                    Project <i class="fa fa-external-link" aria-hidden="true" style="font-size: 0.75em; vertical-align: middle; margin-top: -2.5px;"></i>
+                    </button>
+                  </a>
+                  <a href="https://github.com/jsz-05/realm-of-the-mad-dog" target="_blank" rel="noreferrer noopener" class="projects-link2">
+                    <button class="project-button">
+                      Code <i class="fa fa-external-link" aria-hidden="true" style="font-size: 0.75em; vertical-align: middle; margin-top: -2.5px;"></i>
+                    </button>
+                  </a>
+                </div>
+              </div>
+
+
+              <div class="project-cards-gallery-card project-cards-root-class-name1" style="text-align: left;">
+                <img alt="image" src="public/junlocker-300h.png" class="project-cards-image">
+                <h2 class="project-cards-text"><span>Homework Helper Discord Bot/Server</span></h2>
+                <span class="project-cards-text1">
+                  <span>Homework help bot with over 30,000 users. Uses BeautifulSoup, Requests, and other Python packages to interact with external APIs and scrape Wikipedia to create study documents.</span>
+                </span>
+                <div class="project-buttons">
+                  <a href="https://junlocker.us.to/" target="_blank" rel="noreferrer noopener" class="projects-link2">
+                    <button class="project-button">
+                    Project <i class="fa fa-external-link" aria-hidden="true" style="font-size: 0.75em; vertical-align: middle; margin-top: -2.5px;"></i>
+                    </button>
+                  </a>
+                </div>
+              </div>
+
+              
+              <div class="project-cards-gallery-card project-cards-root-class-name2" style="text-align: left;">
+                <img alt="image" src="public/nlp-300h.webp" class="project-cards-image">
+                <h2 class="project-cards-text"><span>Simple Text Generator using NLP</span></h2>
+                <span class="project-cards-text1"><span>Script that utilizes Python NLTK to generate unique study documents by processing and paraphrasing randomly chosen Wikipedia pages. Ideal for Coursehero and similar platforms. Currently used in J-Unlocker.</span></span>
+                <div class="project-buttons">
+                  <a href="https://github.com/jsz-05/jsz-document-generator" target="_blank" rel="noreferrer noopener" class="projects-link2">
+                    <button class="project-button">
+                      Code <i class="fa fa-external-link" aria-hidden="true" style="font-size: 0.75em; vertical-align: middle; margin-top: -2.5px;"></i>
+                    </button>
+                  </a>
+                </div>
+              </div>
+
+              <div class="project-cards-gallery-card project-cards-root-class-name3" style="text-align: left;">
+                <img alt="image" src="public/extension.gif" class="project-cards-image">
+                <h2 class="project-cards-text"><span>Chrome Extensions/Utilities</span></h2>
+                <span class="project-cards-text1"><span>JS-based Chrome Extensions that add fully adjustable, smooth Word-style cursor caret animations to text editors including Google Docs, as well as various selectable dark themes for the Overleaf editor. </span></span>
+                <div class="project-buttons">
+                  <a href="https://github.com/jsz-05/jsz-SmoothType" target="_blank" rel="noreferrer noopener" class="projects-link2">
+                    <button class="project-button">
+                      SmoothType <i class="fa fa-external-link" aria-hidden="true" style="font-size: 0.75em; vertical-align: middle; margin-top: -2.5px;"></i>
+                    </button>
+                  </a>
+                  <a href="https://github.com/jsz-05/jsz-OverleafDark" target="_blank" rel="noreferrer noopener" class="projects-link2">
+                    <button class="project-button">
+                      OverleafDark <i class="fa fa-external-link" aria-hidden="true" style="font-size: 0.75em; vertical-align: middle; margin-top: -2.5px;"></i>
+                    </button>
+                  </a>
+                </div>
+              </div>
+
+              <div class="project-cards-gallery-card project-cards-root-class-name3" style="text-align: left;">
+                <img alt="image" src="public/fruits.jpg" class="project-cards-image">
+                <h2 class="project-cards-text"><span>Fresh/rotten fruit identification</span></h2>
+                <span class="project-cards-text1"><span>Deep learning model trained on labeled dataset of fresh/rotten fruits, demonstrating an end-to-end image classification problem. Post fine-tuning yielded a >98.8% accuracy on an unseen test dataset.</span></span>
+                <div class="project-buttons">
+                  <a href="https://github.com/jsz-05/jsz-deep-learning/blob/main/07_assessment.ipynb" target="_blank" rel="noreferrer noopener" class="projects-link2">
+                    <button class="project-button">
+                      Code <i class="fa fa-external-link" aria-hidden="true" style="font-size: 0.75em; vertical-align: middle; margin-top: -2.5px;"></i>
+                    </button>
+                  </a>
+                </div>
+              </div>
+
+              <div class="project-cards-gallery-card project-cards-root-class-name4" style="text-align: left;">
+                <img alt="image" src="public/cpu-500w.png" class="project-cards-image">
+                <h2 class="project-cards-text"><span>ABEL Implementation of 8-bit CPU</span></h2>
+                <span class="project-cards-text1"><span>Fully implemented an 8-bit Harvard architecture CPU using Advanced Boolean Expression Language for EE/CS10 @ Caltech. Since this class is still offered, the code will not be published; contact me for more details.</span></span>
+                <div class="project-buttons">
+                  <a href="https://drive.google.com/drive/u/0/folders/1IW7x9k5_Rk9Q2UsXXnLtLVG3HTW88-KF" target="_blank" rel="noreferrer noopener" class="projects-link2">
+                    <button class="project-button">
+                    Project Files <i class="fa fa-external-link" aria-hidden="true" style="font-size: 0.75em; vertical-align: middle; margin-top: -2.5px;"></i>
+                    </button>
+                  </a>
+                </div>
+              </div>
+
+              <div class="project-cards-gallery-card project-cards-root-class-name4" style="text-align: left;">
+                <img alt="image" src="public/blinker.gif" class="project-cards-image">
+                <h2 class="project-cards-text"><span>LED Blinker Board Design/Fabrication</span></h2>
+                <span class="project-cards-text1"><span>Designed, built, and assembled LED blinker board with 10 LEDs, various flashing patterns. Used DipTrace for schematic capture/PCB design, FreeDFM for trace verification. Flashed with custom hex file.</span></span>
+                <div class="project-buttons">
+                  <a href="https://drive.google.com/drive/u/0/folders/1xfyq-qYshzo0MTSHrjNan4tzLjQ4nrmw" target="_blank" rel="noreferrer noopener" class="projects-link2">
+                    <button class="project-button">
+                    Project Files <i class="fa fa-external-link" aria-hidden="true" style="font-size: 0.75em; vertical-align: middle; margin-top: -2.5px;"></i>
+                    </button>
+                  </a>
+                </div>
+              </div>
+
+
+              <div class="project-cards-gallery-card project-cards-root-class-name3" style="text-align: left;">
+                <img alt="image" src="public/carphysics-300h.gif" class="project-cards-image">
+                <h2 class="project-cards-text"><span>Airbag Simulation in BeamNG Engine</span></h2>
+                <span class="project-cards-text1"><span>Proof of concept for simulated airbag deployment in BeamNG.drive. Custom accelerometers, pressure beams/nodes, and sensing logic written in Lua. Deformable airbag mesh modeled and rigged in Blender 2.8.</span></span>
+                <div class="project-buttons">
+                  <a href="https://www.youtube.com/watch?v=4YZg7Y-2lmY" target="_blank" rel="noreferrer noopener" class="projects-link2">
+                    <button class="project-button">
+                    Demo <i class="fa fa-external-link" aria-hidden="true" style="font-size: 0.75em; vertical-align: middle; margin-top: -2.5px;"></i>
+                    </button>
+                  </a>
+                </div>
+              </div>
+
+              <div class="project-cards-gallery-card project-cards-root-class-name3" style="text-align: left;">
+                <img alt="image" src="public/gauges.gif" class="project-cards-image">
+                <h2 class="project-cards-text"><span>Modern Digital Gauge Cluster Design</span></h2>
+                <span class="project-cards-text1"><span>Created for a modern vehicle class in BeamNG. Features working dash/needle logic, shift animations, and a startup logo video rendered in Blender 2.8. Displayed as an HTML texture in-game.</span></span>
+                <div class="project-buttons">
+                  <a href="https://www.youtube.com/watch?v=99bPrN5mTpA" target="_blank" rel="noreferrer noopener" class="projects-link2">
+                    <button class="project-button">
+                      Demo <i class="fa fa-external-link" aria-hidden="true" style="font-size: 0.75em; vertical-align: middle; margin-top: -2.5px;"></i>
+                    </button>
+                  </a>
+                </div>
+              </div>
+
+
+              <!-- Placeholder project card to ensure left alignment of all cards -->
+
+              <a href="#" class="projects-link2 no-hover">
+                <div class="project-cards-gallery-card project-cards-root-class-name3">
+                  <img alt="image" src="public/empty-500w.png" class="project-cards-image">
+                  <h2 class="project-cards-text"><span></span></h2>
+                  <span class="project-cards-text1"><span></span></span>
+                </div>
+              </a>
+
+              </div>
+              <footer class="projects-footer"><span class="projects-text"
+                          >
+                    <span class="home-text27">UI mockup designed in Figma and recreated in Visual Studio Code. Website built with JS/Tailwind CSS, and hosted on a custom subdomain courtesy of ext.io. All text set in Google's Inter typeface.</span>
+                            <br /></span><span class="projects-text3">© 2023 Jeffrey S. Zhou.</span></footer>
+              </div>
+              </div>
+              <script defer="" src="https://v1.jeffreyszhou.com/external/index.umd.js"></script>
+                  <script src="./scripts/header.js"></script>
+
+              </body>
+              
+              </html>
